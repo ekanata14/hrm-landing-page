@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImg from '../assets/hero-img-compressed-new.jpg'
+import Button from './Button'
 
 const Hero = () => {
   return (
@@ -7,6 +8,7 @@ const Hero = () => {
       <div className="left-side flex justify-center flex-col p-5">
         <h1 className='text-5xl font-bold leading-[64px]'>Himpunan Remaja Muslim <span className='text-blue'>Masjid Al-Ihsaan Sanur</span></h1>
         <p className='text-3xl mt-5 font-semibold text-lightBrown'>Empowering Youth, Streightening Faith</p>
+          <Button text="INFORMASI PESANTREN KILAT & BAZZAR" link="/ramadhan" color="blue"></Button>
       </div>
       <div className="right-side p-5">
         <img src={heroImg} alt="hero-img" className='rounded-md shadow-xl' />

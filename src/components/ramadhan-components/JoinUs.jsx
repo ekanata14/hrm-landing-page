@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../assets/hero_img.jpg";
+import heroImg from "../../assets/hero_img.jpg";
 import Button from "./Button";
 
 const JoinUs = () => {
@@ -14,7 +14,7 @@ const JoinUs = () => {
           <p className="text-xl xl:text-2xl mt-5 text-justify">
             Pengen gabung? Pantau terus web kami
           </p>
-          <Button text="COMING SOON!" link="#" color="lightBrown"></Button>
+          <Button text="COMING SOON!" link="#"></Button>
         </div>
       </div>
     </div>
