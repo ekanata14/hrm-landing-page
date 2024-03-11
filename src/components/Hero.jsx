@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className='text-5xl font-bold leading-[64px] text-black'>Himpunan Remaja Muslim <span className='text-blue'>Masjid Al-Ihsaan Sanur</span></h1>
         <p className='text-3xl mt-5 font-semibold text-lightBrown'>Empowering Youth, Streightening Faith</p>
           <Button text="INFORMASI PESANTREN KILAT & BAZZAR" link="/ramadhan" color="blue"></Button>
-          <Button text="DAFTAR PESANTREN KILAT RAMADHAN" link="/https://forms.gle/MWyqe52NBtC8Loet8" color="ramadhan-secondary"></Button>
+          <Button text="DAFTAR PESANTREN KILAT RAMADHAN" link="https://forms.gle/MWyqe52NBtC8Loet8" color="ramadhan-secondary"></Button>
       </div>
       <div className="right-side p-5">
         <img src={heroImg} alt="hero-img" className='rounded-md shadow-xl' />

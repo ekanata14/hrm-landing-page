@@ -17,9 +17,9 @@ const Navbar = () => {
               Program Kami
             </li>
             </a>
-            <a href="#joinUs">
+            <a href="https://forms.gle/MWyqe52NBtC8Loet8">
             <li className="h-full px-10 text-xl flex items-center hover:text-slate-50 bg-lightBrown hover:bg-blue hover:cursor-pointer font-bold transition-all ease-in duration-300">
-              Join Us
+              DAFTAR
             </li>
             </a>
           </ul>

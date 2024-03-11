@@ -14,6 +14,7 @@ const Hero = () => {
           <button className="text-3xl mt-8 font-bold text-white bg-ramadhan-secondary p-3 rounded-xl shadow-md text-center"><a href="#pesantrenKilat">PESANTREN KILAT</a></button>
           <button className="text-3xl mt-8 font-bold text-white bg-ramadhan-green py-3 rounded-xl shadow-md text-center"><a href="#bazzar">BAZZAR RAMADHAN</a></button>
           <button className="text-3xl mt-8 font-bold text-white bg-blue p-3 rounded-xl shadow-md text-center"><a href={juknis} download>DOWNLOAD JUKNIS LOMBA</a></button>
+          <button className="text-3xl mt-8 font-bold text-white bg-red-500 p-3 rounded-xl shadow-md text-center"><a href="https://forms.gle/MWyqe52NBtC8Loet8" download>DAFTAR LOMBA</a></button>
       </div>
     </div>
   )

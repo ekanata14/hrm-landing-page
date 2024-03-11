@@ -14,7 +14,7 @@ const JoinUs = () => {
       <h1 className="text-5xl text-center text-blue font-bold">
         LOMBA PESANTREN KILAT
       </h1>
-      <div className="container mx-auto grid grid-cols-1 xl:grid-cols-3 h-[400px] xl:h-[1000px] font-mono mt-10 gap-6 p-10 text-center text-white">
+      <div className="container mx-auto grid grid-cols-1 xl:grid-cols-3 h-full xl:h-[1000px] font-mono mt-10 gap-6 p-10 text-center text-white">
         <div className="card w-full xl:w-3/4 bg-ramadhan-green shadow-xl">
           <figure>
             <img src={mewarnai} alt="Shoes" className="w-1/2 rounded-xl" />
