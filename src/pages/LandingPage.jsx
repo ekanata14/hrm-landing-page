@@ -8,14 +8,14 @@ import Footer from '../components/Footer'
 
 const LandingPage = () => {
   return (
-    <>
+    <div className='bg-white'>
       <Navbar></Navbar>
       <Hero></Hero>
       <AboutUs></AboutUs>
       <OurProgram></OurProgram>
       <JoinUs></JoinUs>
       <Footer></Footer>
-    </>
+    </div>
   )
 }
 

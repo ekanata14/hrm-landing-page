@@ -6,7 +6,7 @@ import phbi from "../assets/phbi.jpg"
 const OurProgram = () => {
   return (
     <div className="w-full mt-10 font-poppins h-[100%]" id="ourProgram">
-          <h1 className="text-5xl text-center font-bold">
+          <h1 className="text-5xl text-center font-bold text-black">
             Program Kami
           </h1>
       <div className="container mx-auto grid grid-cols-1 xl:grid-cols-3 gap-y-16 justify-items-center h-full font-mono mt-5 p-10 text-center text-white">

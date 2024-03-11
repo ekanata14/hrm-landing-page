@@ -4,7 +4,7 @@ import logohrm from "../assets/logo_hrm.png";
 const Navbar = () => {
   return (
     <div className="w-full shadow-md font-poppins">
-      <div className="container mx-auto flex justify-center xl:justify-between h-28">
+      <div className="container mx-auto flex justify-center xl:justify-between h-28 text-black">
         <img src={logohrm} alt="hrm-logo" className="max-w-32" />
           <ul className="hidden xl:flex h-full">
             <a href="#aboutUs">

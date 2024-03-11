@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImg from '../../assets/hero-img-compressed-new.jpg'
+import juknis from '../../assets/SISTEM LOMBA SANLAT_FIX_FINAL_upload.pdf'
 
 const Hero = () => {
   return (
@@ -10,9 +11,9 @@ const Hero = () => {
         <p className='text-3xl mt-5 font-semibold text-ramadhan-secondary'>Mendidik Generasi Muda di Era Digital</p>
       </div>
       <div className="right-side p-5 flex flex-col justify-center"> 
-          <button className="text-3xl mt-8 font-bold text-white bg-ramadhan-secondary p-3 rounded-xl shadow-md text-center">PESANTREN KILAT</button>
-          <button className="text-3xl mt-8 font-bold text-white bg-ramadhan-green py-3 rounded-xl shadow-md text-center">BAZZAR RAMADHAN</button>
-          <button className="text-3xl mt-8 font-bold text-white bg-blue p-3 rounded-xl shadow-md text-center">DOWNLOAD JUKNIS LOMBA</button>
+          <button className="text-3xl mt-8 font-bold text-white bg-ramadhan-secondary p-3 rounded-xl shadow-md text-center"><a href="#pesantrenKilat">PESANTREN KILAT</a></button>
+          <button className="text-3xl mt-8 font-bold text-white bg-ramadhan-green py-3 rounded-xl shadow-md text-center"><a href="#bazzar">BAZZAR RAMADHAN</a></button>
+          <button className="text-3xl mt-8 font-bold text-white bg-blue p-3 rounded-xl shadow-md text-center"><a href={juknis} download>DOWNLOAD JUKNIS LOMBA</a></button>
       </div>
     </div>
   )
